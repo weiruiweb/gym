@@ -1,0 +1,79 @@
+<!--coach.wxml-->
+<view class="w710">
+    <view class="coach">
+        <view class="coach_cont flexRowBetween">
+            <view class="coach_img">
+                <image src="/images/index_icon3.png"></image>
+            </view>
+            <view class="coach_left">
+                <view class="coach_icon">
+                    <image src="/images/coach2.png"></image>
+                    库里
+                </view>
+                <view class="coach_course flex">
+                    <view>瑜伽</view><view>塑形</view><view>健身</view>
+                </view>
+            </view>
+            <view class="coach_right">
+                <image src="/images/coach1.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="coach">
+        <view class="coach_cont flexRowBetween">
+            <view class="coach_img">
+                <image src="/images/index_icon3.png"></image>
+            </view>
+            <view class="coach_left">
+                <view class="coach_icon">
+                    <image src="/images/coach2.png"></image>
+                    库里
+                </view>
+                <view class="coach_course flex">
+                    <view>瑜伽</view><view>塑形</view><view>健身</view>
+                </view>
+            </view>
+            <view class="coach_right">
+                <image src="/images/coach1.png"></image>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="solely" style="font-size:20rpx;color:#666;text-align:center;">
+  技术支持:西安纯粹科技有限公司
+</view>
+<view style="height:120rpx;width:100%;">
+</view>
+<view class="navbar">
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="font-size:26rpx;">健身房</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/course/course">
+        <view class="nav_img">
+           <image src="/images/navbar2.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="font-size:26rpx;">分类</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/send/send">
+        <view class="nav_img">
+           <image src="/images/navbar3.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="font-size:26rpx;">发布</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/coach/coach">
+        <view class="nav_img">
+           <image src="/images/navbar4-a.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text  this-text" style="font-size:26rpx;">教练</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+        <view class="nav_img">
+            <image src="/images/navbar5.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="font-size:26rpx;">我的</view>
+    </view>
+</view>
+

@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/coach/coach",
+    "pages/send/send",
+    "pages/sendInformation/sendInformation",
+    "pages/course/course",
+    "pages/sign/sign",
+    "pages/user/user",
+    "pages/userInfor/userInfor"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#262626",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "#fff"
+  }
+}

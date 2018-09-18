@@ -1,0 +1,191 @@
+<!--course.wxml-->
+<view class="index_tab flexRowBetween">
+    <view class="tab_item " data-id="0" bindtap="changeTab">
+      <text class="tab_text {{currentId == 0?'this_tab':''}}">课程</text>
+    </view>
+    <view  class="tab_item" data-id="1"  bindtap="changeTab">
+      <text class="tab_text {{currentId == 1?'this_tab':''}}">健身卡</text>
+    </view>
+    <view  class="tab_item" data-id="2"  bindtap="changeTab">
+      <text class="tab_text {{currentId == 2?'this_tab':''}}">辅助产品</text>
+    </view>
+</view>
+
+<view id="course" class="w710" style="{{currentId == 0?'display:block':'display:none'}}">
+    <view class="sort flexRowBetween">
+      <view class="sort_item"  data-id="0"  bindtap="changeSort">
+          <view class="sort_in  flexRowCenter" style="border-right:solid 2px #000;">
+              <view class="text1  {{is_choose == 0?'choose_this':''}}">全部分类</view>
+              <image src="/images/up_icon.png"></image>
+          </view>
+      </view>
+      <view class="sort_item"  data-id="1"  bindtap="changeSort">
+          <view class="sort_in flexRowCenter">
+              <view class="text1  {{is_choose == 1?'choose_this':''}}">全部时段</view>
+              <image src="/images/up_icon.png"></image>
+          </view>
+      </view>
+    </view>
+    <view class="course">
+        <view class="course_list flexRowBetween">
+            <view class="course_left">
+              <image src="/images/index3.png"></image>
+            </view>
+            <view class="course_right">
+              <view class="course1">普拉提塑型课程</view>
+              <view class="course2 ">教练:sinw</view>
+               <view class="course2 avoidOverflow">体能●塑形●自重训练</view>
+              <view class="course2" style="color:#bb212e">报名状态：未满</view>
+            </view>
+            <view class="course_end">
+              <view class="course_appoint">结束</view>
+            </view>
+        </view>
+    </view>
+    <view class="course">
+        <view class="course_list flexRowBetween">
+            <view class="course_left">
+              <image src="/images/index3.png"></image>
+            </view>
+            <view class="course_right">
+              <view class="course1">普拉提塑型课程</view>
+              <view class="course2 ">教练:sinw</view>
+               <view class="course2 avoidOverflow">体能●塑形●自重训练</view>
+              <view class="course2" style="color:#bb212e">报名状态：未满</view>
+            </view>
+            <view class="course_end">
+              <view class="course_appoint this_appoint">预约</view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="w710"  style="{{currentId == 1?'display:block':'display:none'}}">
+    <view class="card1">
+        <image src="/images/gym_card.jpg"></image>
+        <view class="card_cont">
+            <view class="cont1 flexRowBetween">
+                <view class="card_sort">年卡</view>
+                <view class="card_date flexRowBetween">
+                    <view class="data">有效日期 :</view>
+                    <view class="card_time"><view>2018-9-7</view><view>2018-9-7</view></view>
+                </view>
+            </view>
+            <view class="cont2">
+                内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+            </view>
+            <view class="cont3 flexRowBetween">
+                <view class="price">¥2000</view>
+                <view class="vip">vip</view>
+            </view>
+        </view>
+    </view>
+    <view class="card1">
+        <image src="/images/gym_card.jpg"></image>
+        <view class="card_cont">
+            <view class="cont1 flexRowBetween">
+                <view class="card_sort">季卡</view>
+                <view class="card_date flexRowBetween">
+                    <view class="data">有效日期 :</view>
+                    <view class="card_time"><view>2018-9-7</view><view>2018-9-7</view></view>
+                </view>
+            </view>
+            <view class="cont2">
+                内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+            </view>
+            <view class="cont3 flexRowBetween">
+                <view class="price">¥2000</view>
+                <view class="vip">vip</view>
+            </view>
+        </view>
+    </view>
+    <view class="card1">
+        <image src="/images/gym_card.jpg"></image>
+        <view class="card_cont">
+            <view class="cont1 flexRowBetween">
+                <view class="card_sort">月卡</view>
+                <view class="card_date flexRowBetween">
+                    <view class="data">有效日期 :</view>
+                    <view class="card_time"><view>2018-9-7</view><view>2018-9-7</view></view>
+                </view>
+            </view>
+            <view class="cont2">
+                内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+            </view>
+            <view class="cont3 flexRowBetween">
+                <view class="price">¥2000</view>
+                <view class="vip">vip</view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="w710"  style="{{currentId == 2?'display:block':'display:none'}}">
+    <view class="flexRowBetween" style="flex-wrap:wrap;">
+        <view class="product">
+            <image src="/images/product1.jpg"></image>
+            <view class="product_cont">
+                <view class="product_cont1 avoidOverflow">内容内容内容内容内容内容内容内容</view>
+                <view class="product_cont2">¥200</view>
+            </view>
+        </view>
+        <view class="product">
+            <image src="/images/product1.jpg"></image>
+            <view class="product_cont">
+                <view class="product_cont1 avoidOverflow">内容内容内容内容内容内容内容内容</view>
+                <view class="product_cont2">¥200</view>
+            </view>
+        </view>
+        <view class="product">
+            <image src="/images/product1.jpg"></image>
+            <view class="product_cont">
+                <view class="product_cont1 avoidOverflow">内容内容内容内容内容内容内容内容</view>
+                <view class="product_cont2">¥200</view>
+            </view>
+        </view>
+        <view class="product">
+            <image src="/images/product1.jpg"></image>
+            <view class="product_cont">
+                <view class="product_cont1 avoidOverflow">内容内容内容内容内容内容内容内容</view>
+                <view class="product_cont2">¥200</view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="solely" style="font-size:20rpx;color:#666;text-align:center;">
+  技术支持:西安纯粹科技有限公司
+</view>
+<view style="height:120rpx;width:100%;">
+</view>
+<view class="navbar">
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1.png" style="width:65rpx;height:55rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">健身房</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/course/course">
+        <view class="nav_img">
+           <image src="/images/navbar2-a.png" style="width:65rpx;height:55rpx;"></image>
+        </view>
+        <view class="text this-text" style="{{fonts[2].font}}">分类</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/send/send">
+        <view class="nav_img">
+           <image src="/images/navbar3.png" style="width:65rpx;height:55rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">发布</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/coach/coach">
+        <view class="nav_img">
+           <image src="/images/navbar4.png" style="width:65rpx;height:55rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">教练</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+        <view class="nav_img">
+            <image src="/images/navbar5.png" style="width:65rpx;height:55rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">我的</view>
+    </view>
+</view>
+
+

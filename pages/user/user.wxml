@@ -1,0 +1,137 @@
+<!--user.wxml-->
+<view class="banner">
+  <image src="/images/user_banner.jpg"></image>
+  <view class="banner_bottom flexRowBetween">
+    <view class="user_img">
+          <open-data type="userAvatarUrl"></open-data>
+    </view>
+    
+    <view class="user_left">
+      <view style="font-size:32rpx;color:#fff;">
+        会员名称
+      </view>
+      <view class="resume" >18888888 </view>
+    </view>
+    <view class="user_right"  bindtap="intoPath"  data-path="/pages/sign/sign">
+        <view class="sign"><view class="sign_cont">签到</view></view>
+    </view>
+  </view>
+</view>
+<view class="w710">
+    <view class="user_tlt">
+        <view class="tlt_cont">我的会员卡</view>
+    </view>
+    <view class="card1">
+        <image src="/images/card_bg.jpg"></image>
+        <view class="card_cont">
+            <view class="cont1 flexRowBetween">
+                <view class="card_sort">年卡</view>
+                <view class="card_date flexRowBetween">
+                    <view class="data">有效日期 :</view>
+                    <view class="card_time"><view>2018-9-7</view><view>2018-9-7</view></view>
+                </view>
+               
+            </view>
+            <view class="cont2">
+                内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+            </view>
+            <view class="cont3 flexRowBetween">
+             <view class="qcored">
+                    <view class="qcored_cont">二维码</view>
+                </view>
+                <view class="vip">vip</view>
+            </view>
+        </view>
+    </view>
+    <view class="user">
+        <view class="user_top flex user_line" bindtap="intoPath"  data-path="/pages/userInfor/userInfor">
+            <image src="/images/user_icon1.png"></image>
+            个人资料
+        </view>
+        <view class="user_top flex">
+            <image src="/images/user_icon2.png"></image>
+            健身档案
+        </view>
+    </view>
+    <view class="user">
+        <view class="user_top flex user_line">
+            <image src="/images/user_icon3.png"></image>
+            我的地址
+        </view>
+        <view class="user_top flex">
+            <image src="/images/user_icon4.png"></image>
+            我的评论
+        </view>
+    </view>
+    <view class="user1">
+        <view class="user_top flex user_line">
+            <image src="/images/user_icon5.png"></image>
+            我的预约
+        </view>
+         <view class="user_top flex user_line">
+            <image src="/images/user_icon6.png"></image>
+            我的订单
+        </view>
+        <view class="user_top flex">
+            <image src="/images/user_icon7.png"></image>
+            我的优惠券
+        </view>
+    </view>
+    <view class="user1">
+        <view class="user_top flex user_line">
+            <image src="/images/user_icon8.png"></image>
+            我的课程
+        </view>
+         <view class="user_top flex user_line">
+            <image src="/images/user_icon9.png"></image>
+            我的健身计划
+        </view>
+        <view class="user_top flex">
+            <image src="/images/user_icon10.png"></image>
+            我的客服
+        </view>
+    </view>
+    <view class="user" style="height:102rpx;">
+        <view class="user_top flex" style="height:100%;">
+            <image src="/images/user_icon11.png"></image>
+            教练登录
+        </view>
+    </view>
+</view>
+<view class="solely" style="font-size:20rpx;color:#666;text-align:center;">
+  技术支持:西安纯粹科技有限公司
+</view>
+<view style="height:120rpx;width:100%;">
+</view>
+ <view class="navbar">
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">健身房</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/course/course">
+        <view class="nav_img">
+           <image src="/images/navbar2.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">分类</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/send/send">
+        <view class="nav_img">
+           <image src="/images/navbar3.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">发布</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/coach/coach">
+        <view class="nav_img">
+           <image src="/images/navbar4.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">教练</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+        <view class="nav_img">
+            <image src="/images/navbar5-a.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text  this-text" style="{{fonts[2].font}}">我的</view>
+    </view>
+</view>

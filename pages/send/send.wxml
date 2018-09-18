@@ -1,0 +1,97 @@
+<!--course.wxml-->
+<view class="w710">
+    <view class="send_list">
+        <view class="sender flexRowBetween">
+            <view class="sender_img">
+                <image src="/images/team_img.png"></image>
+            </view>
+            <view class="sender_left flex">
+                <view>用户名</view>
+                <view class="vip">VIP</view>
+            </view>
+            <view class="sender_right">
+                2018-07-16
+            </view>
+        </view>
+        <view class="send_deatil">发布发布发布发布发布发布发布发布发布发布发布发布发布发布发布</view>
+        <view class="send_img flexRowBetween">
+            <image src="/images/product1.jpg"></image>
+             <image src="/images/product1.jpg"></image>
+              <image src="/images/product1.jpg"></image>
+        </view>
+        <view class="great flexRowCenter">
+            <image src="/images/great.png"></image>
+            <text>点赞</text>
+        </view>
+    </view>
+</view>
+<view class="w710">
+    <view class="send_list">
+        <view class="sender flexRowBetween">
+            <view class="sender_img">
+                <image src="/images/team_img.png"></image>
+            </view>
+            <view class="sender_left flex">
+                <view>用户名</view>
+                <view class="vip">VIP</view>
+            </view>
+            <view class="sender_right">
+                2018-07-16
+            </view>
+        </view>
+        <view class="send_deatil">发布发布发布发布发布发布发布发布发布发布发布发布发布发布发布</view>
+        <view class="send_img flexRowBetween">
+            <image src="/images/product1.jpg"></image>
+             <image src="/images/product1.jpg"></image>
+              <image src="/images/product1.jpg"></image>
+        </view>
+        <view class="great flexRowCenter great_a">
+            <image src="/images/great_a.png"></image>
+            <text>点赞</text>
+        </view>
+    </view>
+</view>
+<view class="send_btn" bindtap="intoPath"  data-path="/pages/sendInformation/sendInformation">
+    <view class="btn_img"><image src="/images/send_btn.png"></image></view>
+    编辑发布
+</view>
+<view class="solely" style="font-size:20rpx;color:#666;text-align:center;">
+  技术支持:西安纯粹科技有限公司
+</view>
+<view style="height:120rpx;width:100%;">
+</view>
+<view class="navbar">
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">健身房</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/course/course">
+        <view class="nav_img">
+           <image src="/images/navbar2.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">分类</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/send/send">
+        <view class="nav_img">
+           <image src="/images/navbar3-a.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text  this-text" style="{{fonts[2].font}}">发布</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/coach/coach">
+        <view class="nav_img">
+           <image src="/images/navbar4.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">教练</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+        <view class="nav_img">
+            <image src="/images/navbar5.png" style="width:44rpx;height:44rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">我的</view>
+    </view>
+</view>
+
+
+
