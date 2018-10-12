@@ -10,10 +10,6 @@ Page({
    is_choose:0,
   },
   //事件处理函数
-  preventTouchMove:function(e) {
-
-  },
-
   onLoad(options){
     
   },

@@ -5,11 +5,7 @@ const app = getApp();
 
 Page({
   data: {
-    arrayData: null,
-    dialogData: null,
-    isDialogShow: false,
-    isScroll: true,
-    mainData:[],
+  
   },
   //事件处理函数
  

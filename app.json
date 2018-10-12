@@ -2,12 +2,32 @@
   "pages": [
     "pages/index/index",
     "pages/coach/coach",
+    "pages/coachDetail/coachDetail",
     "pages/send/send",
+    "pages/store/store",
     "pages/sendInformation/sendInformation",
     "pages/course/course",
+    "pages/courseDetail/courseDetail",
+    "pages/courseDtailConfirm/courseDtailConfirm",
+    "pages/courseDtailConfirm1/courseDtailConfirm1",
+    "pages/confirmOrder/confirmOrder",
     "pages/sign/sign",
     "pages/user/user",
-    "pages/userInfor/userInfor"
+    "pages/userInfor/userInfor",
+    "pages/userAddress/userAddress",
+    "pages/userAddressNew/userAddressNew",
+    "pages/userComment/userComment",
+    "pages/userOrder/userOrder",
+    "pages/userOrder1/userOrder1",
+    "pages/userDiscount/userDiscount",
+    "pages/userPlan/userPlan",
+    "pages/userFile/userFile",
+    "pages/login/login",
+    "pages/coachCenter/coachCenter",
+    "pages/coachCenterCheck/coachCenterCheck",
+    "pages/coachCenterEdit/coachCenterEdit",
+    "pages/userCenterStudent/userCenterStudent"
+
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -63,31 +63,31 @@
 <view class="navbar">
     <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
         <view class="nav_img">
-          <image src="/images/navbar1.png" style="width:44rpx;height:44rpx;"></image>
+          <image src="/images/navbar1.png" style="width:64rpx;height:54rpx;"></image>
         </view>
         <view class="text" style="{{fonts[2].font}}">健身房</view>
     </view>
     <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/course/course">
         <view class="nav_img">
-           <image src="/images/navbar2.png" style="width:44rpx;height:44rpx;"></image>
+           <image src="/images/navbar2.png" style="width:64rpx;height:54rpx;"></image>
         </view>
         <view class="text" style="{{fonts[2].font}}">分类</view>
     </view>
     <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/send/send">
         <view class="nav_img">
-           <image src="/images/navbar3-a.png" style="width:44rpx;height:44rpx;"></image>
+           <image src="/images/navbar3-a.png" style="width:64rpx;height:54rpx;"></image>
         </view>
         <view class="text  this-text" style="{{fonts[2].font}}">发布</view>
     </view>
     <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/coach/coach">
         <view class="nav_img">
-           <image src="/images/navbar4.png" style="width:44rpx;height:44rpx;"></image>
+           <image src="/images/navbar4.png" style="width:64rpx;height:54rpx;"></image>
         </view>
         <view class="text" style="{{fonts[2].font}}">教练</view>
     </view>
     <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
         <view class="nav_img">
-            <image src="/images/navbar5.png" style="width:44rpx;height:44rpx;"></image>
+            <image src="/images/navbar5.png" style="width:64rpx;height:54rpx;"></image>
         </view>
         <view class="text" style="{{fonts[2].font}}">我的</view>
     </view>

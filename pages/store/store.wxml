@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="w710" id="index_cont">
+      <view class="intro_detail">
+          <view class="w710">
+            <view style="height:50rpx;line-height: 50rpx;color:#ccc;font-size:32rpx;">健身房-高新店</view>
+            <view>
+              内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内
+            </view>
+            <view class="store_img">
+                <image src="/images/coach.jpg"></image>
+            </view>
+            <view>
+              内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内
+            </view>
+        </view>
+    </view>
+</view>

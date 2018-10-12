@@ -9,9 +9,6 @@ Page({
  
   },
   //事件处理函数
-  preventTouchMove:function(e) {
-
-  },
 
   onLoad(options){
 
@@ -32,7 +29,11 @@ Page({
     const self = this;
     api.pathTo(api.getDataSet(e,'path'),'redi');
   }, 
- 
+   tel:function () {
+    wx.makePhoneCall({
+      phoneNumber: '18192654258',
+    })
+  },
 })
 
   

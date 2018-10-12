@@ -1,6 +1,6 @@
 <!--sendInformation.wxml-->
 <view class="textarea">
-  <textarea  type="" placeholder="请输入要发布的内容..." style="{{fonts[3].font}}" data-key="content" bindinput="changeBind" style="font-size:16px">
+  <textarea  type="" placeholder="请输入要发布的内容..." style="font-size:30rpx;" data-key="content" bindinput="changeBind" style="font-size:16px">
   </textarea>
 </view>
 <view class="uploder">
@@ -20,7 +20,7 @@
     </view>
 </view>
 <view class="fabu">
-  <view class="fabu_cont"  style="{{fonts[4].font}}">
+  <view class="fabu_cont"  style="font-size:30rpx;">
     <view class="fabu_left" bindtap="menuClick" data-key="passage1" data-num="0">
         保存
     </view>

@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 9,
+			"current": 22,
 			"list": [
 				{
 					"id": -1,
@@ -66,9 +66,9 @@
 					"query": ""
 				},
 				{
-					"id": -1,
-					"name": "user",
-					"pathName": "pages/user/user",
+					"id": 5,
+					"name": "我的优惠券",
+					"pathName": "pages/userDiscount/userDiscount",
 					"query": ""
 				},
 				{
@@ -78,9 +78,9 @@
 					"query": ""
 				},
 				{
-					"id": -1,
-					"name": "user",
-					"pathName": "pages/user/user",
+					"id": 7,
+					"name": "user计划",
+					"pathName": "pages/userPlan/userPlan",
 					"query": ""
 				},
 				{
@@ -94,6 +94,83 @@
 					"name": "签到",
 					"pathName": "pages/sign/sign",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "个人资料",
+					"pathName": "pages/userInfor/userInfor",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "管理地址",
+					"pathName": "pages/userAddress/userAddress",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "评论",
+					"pathName": "pages/userComment/userComment",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "预约订单",
+					"pathName": "pages/userOrder/userOrder",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "预约查询",
+					"pathName": "pages/coachCenterCheck/coachCenterCheck",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "编辑课时",
+					"pathName": "pages/coachCenterEdit/coachCenterEdit",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教练中心",
+					"pathName": "pages/coachCenter/coachCenter",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教练中心111",
+					"pathName": "pages/coachCenter/coachCenter",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "详情",
+					"pathName": "pages/courseDetail/courseDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "订单确认",
+					"pathName": "pages/courseDtailConfirm/courseDtailConfirm",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "教练详情",
+					"pathName": "pages/coachDetail/coachDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "门店详情",
+					"pathName": "pages/store/store",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "健身档案",
+					"pathName": "pages/userFile/userFile"
 				}
 			]
 		}

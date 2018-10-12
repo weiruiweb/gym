@@ -26,7 +26,7 @@
           </view>
       </view>
     </view>
-    <view class="course">
+    <view class="course" bindtap="intoPath" data-path="/pages/courseDetail/courseDetail">
         <view class="course_list flexRowBetween">
             <view class="course_left">
               <image src="/images/index3.png"></image>
@@ -42,7 +42,7 @@
             </view>
         </view>
     </view>
-    <view class="course">
+    <view class="course"  bindtap="intoPath" data-path="/pages/courseDetail/courseDetail">
         <view class="course_list flexRowBetween">
             <view class="course_left">
               <image src="/images/index3.png"></image>
@@ -60,7 +60,7 @@
     </view>
 </view>
 <view class="w710"  style="{{currentId == 1?'display:block':'display:none'}}">
-    <view class="card1">
+    <view class="card1" bindtap="intoPath" data-path="/pages/courseDtailConfirm1/courseDtailConfirm1">
         <image src="/images/gym_card.jpg"></image>
         <view class="card_cont">
             <view class="cont1 flexRowBetween">
@@ -79,7 +79,7 @@
             </view>
         </view>
     </view>
-    <view class="card1">
+    <view class="card1"  bindtap="intoPath" data-path="/pages/courseDtailConfirm1/courseDtailConfirm1">
         <image src="/images/gym_card.jpg"></image>
         <view class="card_cont">
             <view class="cont1 flexRowBetween">
@@ -120,14 +120,14 @@
 </view>
 <view class="w710"  style="{{currentId == 2?'display:block':'display:none'}}">
     <view class="flexRowBetween" style="flex-wrap:wrap;">
-        <view class="product">
+        <view class="product" bindtap="intoPath" data-path="/pages/confirmOrder/confirmOrder">
             <image src="/images/product1.jpg"></image>
             <view class="product_cont">
                 <view class="product_cont1 avoidOverflow">内容内容内容内容内容内容内容内容</view>
                 <view class="product_cont2">¥200</view>
             </view>
         </view>
-        <view class="product">
+        <view class="product"  bindtap="intoPath" data-path="/pages/confirmOrder/confirmOrder">
             <image src="/images/product1.jpg"></image>
             <view class="product_cont">
                 <view class="product_cont1 avoidOverflow">内容内容内容内容内容内容内容内容</view>

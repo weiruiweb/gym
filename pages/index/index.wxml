@@ -2,11 +2,21 @@
 <view class="banner">
     <image src="/images/banner.png"></image>
 </view>
+
+<!--   <view id="green" class="scroll-view-item bc_green"></view>
+  <view id="red" class="scroll-view-item bc_red"></view>
+  <view id="yellow" class="scroll-view-item bc_yellow"></view>
+  <view id="blue" class="scroll-view-item bc_blue"></view>
+  <view id="blue" class="scroll-view-item bc_blue"></view>
+  <view id="blue" class="scroll-view-item bc_blue"></view>
+  <view id="blue" class="scroll-view-item bc_blue"></view>
+  <view id="blue" class="scroll-view-item bc_blue"></view>
+</scroll-view> -->
 <view class="w710" id="index_cont">
   <view class="w100 index_in">
     <view class="gym_intro">
       <view class="intro_cont">
-        <view class="gym_name flexRowBetween">
+        <view class="gym_name flexRowBetween"  bindtap="intoPath" data-path="/pages/store/store">
           <view class="name_left avoidOverflow">健身房-高新店</view>
           <view class="name_right">查看更多>></view>
         </view>
@@ -32,12 +42,15 @@
     </view>
   </view>
 </view>
+
 <view class="w710">
   <view class="index_coach flexRowBetween">
     <view class="coach_icon">
       <image src="/images/index_icon2.png"></image>
     </view>
+
     <view class="coach_list">
+    <scroll-view scroll-x class="scroll-header">
       <view class="coach_item">
           <view class="coach_img"><image src="/images/index_icon3.png"></image></view>
           <view class="coach_name">
@@ -68,6 +81,37 @@
             <image src="/images/index_icon1.png"></image>
           </view>
       </view>
+      <view class="coach_item">
+          <view class="coach_img"><image src="/images/index_icon3.png"></image></view>
+          <view class="coach_name">
+            库里
+          </view>
+          <view class="coach_cal">
+            3000cal
+          </view>
+          <view class="coach_cal">
+            300min
+          </view>
+          <view class="coach_add">
+            <image src="/images/index_icon1.png"></image>
+          </view>
+      </view>
+      <view class="coach_item">
+          <view class="coach_img"><image src="/images/index_icon3.png"></image></view>
+          <view class="coach_name">
+            库里
+          </view>
+          <view class="coach_cal">
+            3000cal
+          </view>
+          <view class="coach_cal">
+            300min
+          </view>
+          <view class="coach_add">
+            <image src="/images/index_icon1.png"></image>
+          </view>
+      </view>
+    </scroll-view>
     </view>
   </view>
 </view>

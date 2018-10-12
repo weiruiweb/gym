@@ -1,0 +1,64 @@
+<!--manageAddress.wxml-->
+<view id="address">
+		<view class="address_item flexRowBetween" bindtap="choose">
+			<view class="address_left">
+				<view class="text1 text_top">
+					收货人
+				</view>
+				<view class="text_other avoidOverflow">
+					科技二路
+				</view>
+			</view>
+			<view class="address_right">
+				<view style="height:100%;">18888888888</view>
+			</view>
+		</view>
+		<view class="address_set flexRowBetween">
+			<view class="default">
+				<image src="/images/select_a.png"></image>
+				<text style="color:#bb212e;">默认地址</text>
+			</view>
+			<view class="edit" data-path="/pages/userAddressnew/userAddressnew" bindtap="intoPath">
+				<image src="/images/edit.jpg"></image>
+				<text>编辑</text>
+			</view>
+			<view class="edit delete">
+				<image src="/images/del.jpg"></image>
+				<text>删除</text>
+			</view>
+		</view>
+		<view class="address_item flexRowBetween" bindtap="choose">
+			<view class="address_left">
+				<view class="text1 text_top">
+					收货人
+				</view>
+				<view class="text_other avoidOverflow">
+					科技二路
+				</view>
+			</view>
+			<view class="address_right">
+				<view style="height:100%;">18888888888</view>
+			</view>
+		</view>
+		<view class="address_set flexRowBetween">
+			<view class="default">
+				<image src="/images/select.png"></image>
+				<text>设为默认地址</text>
+			</view>
+			<view class="edit" data-path="/pages/userAddressnew/userAddressnew" bindtap="intoPath">
+				<image src="/images/edit.jpg"></image>
+				<text>编辑</text>
+			</view>
+			<view class="edit delete">
+				<image src="/images/del.jpg"></image>
+				<text>删除</text>
+			</view>
+		</view>
+</view>
+
+
+<view class="btn">
+	<view class="submit_info" bindtap="intoPath" data-path="/pages/userAddressNew/userAddressNew" style="width:538rpx;">
+		添加新地址
+	</view>
+</view>
